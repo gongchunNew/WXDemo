@@ -1,0 +1,15 @@
+<view class="page">
+    <view class="head">
+        <text class="head_title">view</text>
+        <text class="head_desc">弹性框模型分为弹性容器以及弹性项目。当组件的display为flex或inline-flex时，该组件则为弹性容器，弹性容器的子组件为弹性项目。</text>
+    </view>
+    <view class="body">
+        <view>各个view横向排列</view>
+        <view class="allview" >
+            <view class="view1" style="flex-item">1</view>
+            <view class="view2" style="flex-item">2</view>
+            <view class="view3" style="flex-item">3</view>
+            <view class="view4" style="flex-item">4</view>
+        </view>
+    </view>
+</view>
